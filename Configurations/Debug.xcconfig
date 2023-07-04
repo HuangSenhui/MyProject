@@ -1,0 +1,27 @@
+//
+//  Debug.xcconfig
+//  MyProject
+//
+//  Created by HuangSenhui on 2023/7/4.
+//  Copyright © 2023 H.S.H. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+ENABLE_BITCODE = NO
+
+// ↓ 无法覆盖默认设置
+
+//:configuration = Debug
+PRODUCT_BUNDLE_IDENTIFIER = live.huangsenhui.myproject.beta
+
+//:configuration = Debug
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta
+
+//:configuration = Debug
+INFOPLIST_KEY_CFBundleDisplayName = App Beta
+
+//:configuration = Debug
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColorBeta
+
