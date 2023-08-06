@@ -1,0 +1,26 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "Hello, world!" : {
+      "comment" : "Localizable.strings\n  MyProject\n\n  Created by HuangSenhui on 2023/6/18.\n  Copyright © 2023 H.S.H. All rights reserved.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello, world!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你好，世界！"
+          }
+        }
+      }
+    },
+    "Xcode 15" : {
+
+    }
+  },
+  "version" : "1.0"
+}

@@ -15,13 +15,27 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Divider()
+            
+            // Xcode 15 自动生成 symbols 常量, xxxColor、xxxImage 自动优化掉后缀
+            Image(.myDebug)
+                .resizable()
+                .frame(width: 150, height: 150)
+                .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
+            
+            Button {
+                logger.info("按钮被点击了")
+            } label: {
+                Text("Xcode 15")
+                    .foregroundColor(Color(.myDebug))
+            }
+
         }
         .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+// Swift 5.9: Swift 宏
+#Preview {
+    ContentView()
 }

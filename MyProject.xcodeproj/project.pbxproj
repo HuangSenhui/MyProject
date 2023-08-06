@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B102C382A3ED35A00D2DA43 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B102C3A2A3ED35A00D2DA43 /* Localizable.strings */; };
 		8B102C3F2A3EDE6B00D2DA43 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B102C3E2A3EDE6B00D2DA43 /* Settings.bundle */; };
 		8B102C412A3EEF3800D2DA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B102C402A3EEF3800D2DA43 /* AppDelegate.swift */; };
 		8B6CD45F2A2C25DC009E0A3C /* MyProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CD45E2A2C25DC009E0A3C /* MyProjectApp.swift */; };
@@ -15,11 +14,10 @@
 		8B6CD4662A2C25DE009E0A3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CD4652A2C25DE009E0A3C /* Preview Assets.xcassets */; };
 		8B6CD46E2A2C273E009E0A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CD46D2A2C273E009E0A3C /* LaunchScreen.storyboard */; };
 		8B6CD4702A2C2939009E0A3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CD46F2A2C2939009E0A3C /* ContentView.swift */; };
+		8BD4AD182A7F96F800CFE63A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8BD4AD172A7F96F700CFE63A /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B102C392A3ED35A00D2DA43 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		8B102C3B2A3ED35C00D2DA43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8B102C3E2A3EDE6B00D2DA43 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		8B102C402A3EEF3800D2DA43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B37C9A22A5447FF0005CC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +30,7 @@
 		8B6CD46C2A2C2626009E0A3C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B6CD46D2A2C273E009E0A3C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B6CD46F2A2C2939009E0A3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BD4AD172A7F96F700CFE63A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +80,7 @@
 				8B6CD46D2A2C273E009E0A3C /* LaunchScreen.storyboard */,
 				8B6CD4622A2C25DE009E0A3C /* Assets.xcassets */,
 				8B37C9A22A5447FF0005CC71 /* Info.plist */,
-				8B102C3A2A3ED35A00D2DA43 /* Localizable.strings */,
+				8BD4AD172A7F96F700CFE63A /* Localizable.xcstrings */,
 				8B102C3E2A3EDE6B00D2DA43 /* Settings.bundle */,
 				8B6CD4642A2C25DE009E0A3C /* Preview Content */,
 			);
@@ -157,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B6CD46E2A2C273E009E0A3C /* LaunchScreen.storyboard in Resources */,
-				8B102C382A3ED35A00D2DA43 /* Localizable.strings in Resources */,
+				8BD4AD182A7F96F800CFE63A /* Localizable.xcstrings in Resources */,
 				8B102C3F2A3EDE6B00D2DA43 /* Settings.bundle in Resources */,
 				8B6CD4662A2C25DE009E0A3C /* Preview Assets.xcassets in Resources */,
 				8B6CD4632A2C25DE009E0A3C /* Assets.xcassets in Resources */,
@@ -178,18 +177,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8B102C3A2A3ED35A00D2DA43 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B102C392A3ED35A00D2DA43 /* zh-Hans */,
-				8B102C3B2A3ED35C00D2DA43 /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8B6CD4672A2C25DE009E0A3C /* Debug */ = {
@@ -244,6 +231,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -299,6 +287,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
